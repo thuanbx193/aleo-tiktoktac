@@ -1,0 +1,49 @@
+{
+    "name": "aleo-tiktoktac",
+    "version": "1.0.1",
+    "description": "aleo-tiktoktac",
+    "sideEffects": false,
+    "type": "module",
+    "files": [
+      "dist"
+    ],
+    "main": "./src/main.aleo",
+    "module": "",
+    "types": "run.sh",
+    "exports": {
+      ".": {
+        "import": "./src/main.aleo",
+        "require": "./src/main.aleo"
+      }
+    },
+    "scripts": {
+      "test": "leo run new",
+      "build": "run.sh"
+    },
+    "keywords": [
+      "use",
+      "aleo",
+      "tiktoktac"
+    ],
+    "repository": {
+      "type": "Github",
+      "url": "https://github.com/thuanbx193/aleo-tiktoktac"
+    },
+    "author": {
+      "name": "thuanbx193",
+      "email": "thuancnt521@gmail.com",
+      "url": "https://github.com/thuanbx193"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "vue-demi": "latest"
+    },
+    "devDependencies": {
+      "@types/node": "^17.0.8",
+      "@vue/composition-api": "^1.4.4",
+      "typescript": "^4.5.4",
+      "vite": "^2.7.10",
+      "vitest": "^0.0.139",
+      "vue": "^3.2.28"
+    }
+  }
